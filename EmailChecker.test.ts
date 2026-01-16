@@ -11,10 +11,14 @@ describe("EmailCheck", () => {
     
       it("should return false when given  don't contains dot in domains", () =>{
             
-     
       const actual = emailChecker.verif("lolo@domainecom");
       expect(actual).toBe(false);
     })
 
+    it("should return false when given contains space", () =>{
+
+      const actual = emailChecker.verif("lolo@do.main  ecom");
+      expect(actual).toBe(false);
+    })
   });
 });
