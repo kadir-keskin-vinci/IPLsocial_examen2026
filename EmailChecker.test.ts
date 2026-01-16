@@ -20,5 +20,11 @@ describe("EmailCheck", () => {
       const actual = emailChecker.verif("lolo@do.main  ecom");
       expect(actual).toBe(false);
     })
+
+    it("should return true when given correct email", () =>{
+
+      const actual = emailChecker.verif("lolo@de.com");
+      expect(actual).toBe(true);
+    })
   });
 });
