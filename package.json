@@ -1,0 +1,27 @@
+{
+  "name": "ipl_social",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prettier": "npx prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.9",
+    "eslint": "^9.39.2",
+    "globals": "^17.0.0",
+    "jest": "^30.2.0",
+    "prettier": "3.8.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.0"
+  }
+}
